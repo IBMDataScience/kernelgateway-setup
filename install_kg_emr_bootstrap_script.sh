@@ -8,7 +8,7 @@ function createSparkUser {
 
 function downloadClusterScript {
   echo "Downloading install_kg_emr_cluster_script.sh script to /tmp"
-  wget https://raw.githubusercontent.com/IBMDataScience/kernelgateway-setup/master/install_kg_emr_cluster_script.sh
+  wget https://raw.githubusercontent.com/IBMDataScience/kernelgateway-setup/master/install_kg_emr_cluster_script.sh -O /tmp/install_kg_emr_cluster_script.sh
   chmod +x /tmp/install_kg_emr_cluster_script.sh
 }
 
